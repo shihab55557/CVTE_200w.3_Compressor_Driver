@@ -1,0 +1,174 @@
+Dependencies for Project 'Firmware_for_CVTE_2in1_RPS_LOGGER', Target 'Target 1': (DO NOT MODIFY !)
+F (.\app.h)(0x68A014D7)()
+F (.\timebase.h)(0x68A432C1)()
+F (.\dispcom.h)(0x68A0186C)()
+F (.\display.h)(0x68A018A3)()
+F (.\tm1650.h)(0x68A55C26)()
+F (.\cdef.h)(0x68A01EC1)()
+F (.\captouch.c)(0x68A01F82)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-3 -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I./RTE/_Target_1-IC:/Users/Shohanur/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/Shohanur/AppData/Local/Arm/Packs/Keil/STM32G0xx_DFP/1.5.0/Drivers/CMSIS/Device/ST/STM32G0xx/Include-D__UVISION_VERSION="527" -D_RTE_ -DSTM32G030xx-o ./objects/captouch.o -MD)
+I (C:\Users\Shohanur\AppData\Local\Arm\Packs\Keil\STM32G0xx_DFP\1.5.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include\stm32g030xx.h)(0x668664AD)
+I (C:\Users\Shohanur\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\core_cm0plus.h)(0x664BF4A8)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5C41004A)
+I (C:\Users\Shohanur\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\cmsis_version.h)(0x664BF4A8)
+I (C:\Users\Shohanur\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\cmsis_compiler.h)(0x664BF4A8)
+I (C:\Users\Shohanur\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\cmsis_armclang.h)(0x664BF4A8)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x5C48D94A)
+I (C:\Users\Shohanur\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\m-profile\cmsis_armclang_m.h)(0x664BF4A8)
+I (C:\Users\Shohanur\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\m-profile\armv7m_mpu.h)(0x664BF4A8)
+I (C:\Users\Shohanur\AppData\Local\Arm\Packs\Keil\STM32G0xx_DFP\1.5.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include\system_stm32g0xx.h)(0x668664AD)
+F (.\diag.h)(0x68A02094)()
+F (.\dispfnc.h)(0x68A56DBE)()
+F (.\debug.h)(0x68A41F4A)()
+F (.\main.c)(0x68A43613)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-3 -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I./RTE/_Target_1-IC:/Users/Shohanur/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/Shohanur/AppData/Local/Arm/Packs/Keil/STM32G0xx_DFP/1.5.0/Drivers/CMSIS/Device/ST/STM32G0xx/Include-D__UVISION_VERSION="527" -D_RTE_ -DSTM32G030xx-o ./objects/main.o -MD)
+I (C:\Users\Shohanur\AppData\Local\Arm\Packs\Keil\STM32G0xx_DFP\1.5.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include\stm32g030xx.h)(0x668664AD)
+I (C:\Users\Shohanur\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\core_cm0plus.h)(0x664BF4A8)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5C41004A)
+I (C:\Users\Shohanur\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\cmsis_version.h)(0x664BF4A8)
+I (C:\Users\Shohanur\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\cmsis_compiler.h)(0x664BF4A8)
+I (C:\Users\Shohanur\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\cmsis_armclang.h)(0x664BF4A8)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x5C48D94A)
+I (C:\Users\Shohanur\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\m-profile\cmsis_armclang_m.h)(0x664BF4A8)
+I (C:\Users\Shohanur\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\m-profile\armv7m_mpu.h)(0x664BF4A8)
+I (C:\Users\Shohanur\AppData\Local\Arm\Packs\Keil\STM32G0xx_DFP\1.5.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include\system_stm32g0xx.h)(0x668664AD)
+I (app.h)(0x68A014D7)
+F (.\app.c)(0x68A4374A)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-3 -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I./RTE/_Target_1-IC:/Users/Shohanur/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/Shohanur/AppData/Local/Arm/Packs/Keil/STM32G0xx_DFP/1.5.0/Drivers/CMSIS/Device/ST/STM32G0xx/Include-D__UVISION_VERSION="527" -D_RTE_ -DSTM32G030xx-o ./objects/app.o -MD)
+I (C:\Users\Shohanur\AppData\Local\Arm\Packs\Keil\STM32G0xx_DFP\1.5.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include\stm32g030xx.h)(0x668664AD)
+I (C:\Users\Shohanur\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\core_cm0plus.h)(0x664BF4A8)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5C41004A)
+I (C:\Users\Shohanur\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\cmsis_version.h)(0x664BF4A8)
+I (C:\Users\Shohanur\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\cmsis_compiler.h)(0x664BF4A8)
+I (C:\Users\Shohanur\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\cmsis_armclang.h)(0x664BF4A8)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x5C48D94A)
+I (C:\Users\Shohanur\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\m-profile\cmsis_armclang_m.h)(0x664BF4A8)
+I (C:\Users\Shohanur\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\m-profile\armv7m_mpu.h)(0x664BF4A8)
+I (C:\Users\Shohanur\AppData\Local\Arm\Packs\Keil\STM32G0xx_DFP\1.5.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include\system_stm32g0xx.h)(0x668664AD)
+I (timebase.h)(0x68A432C1)
+I (dispcom.h)(0x68A0186C)
+I (dispfnc.h)(0x68A56DBE)
+I (display.h)(0x68A018A3)
+I (captouch.h)(0x68A01F82)
+I (tm1650.h)(0x68A55C26)
+I (diag.h)(0x68A02094)
+I (debug.h)(0x68A41F4A)
+F (.\timebase.c)(0x68A432C1)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-3 -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I./RTE/_Target_1-IC:/Users/Shohanur/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/Shohanur/AppData/Local/Arm/Packs/Keil/STM32G0xx_DFP/1.5.0/Drivers/CMSIS/Device/ST/STM32G0xx/Include-D__UVISION_VERSION="527" -D_RTE_ -DSTM32G030xx-o ./objects/timebase.o -MD)
+I (C:\Users\Shohanur\AppData\Local\Arm\Packs\Keil\STM32G0xx_DFP\1.5.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include\stm32g030xx.h)(0x668664AD)
+I (C:\Users\Shohanur\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\core_cm0plus.h)(0x664BF4A8)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5C41004A)
+I (C:\Users\Shohanur\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\cmsis_version.h)(0x664BF4A8)
+I (C:\Users\Shohanur\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\cmsis_compiler.h)(0x664BF4A8)
+I (C:\Users\Shohanur\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\cmsis_armclang.h)(0x664BF4A8)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x5C48D94A)
+I (C:\Users\Shohanur\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\m-profile\cmsis_armclang_m.h)(0x664BF4A8)
+I (C:\Users\Shohanur\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\m-profile\armv7m_mpu.h)(0x664BF4A8)
+I (C:\Users\Shohanur\AppData\Local\Arm\Packs\Keil\STM32G0xx_DFP\1.5.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include\system_stm32g0xx.h)(0x668664AD)
+I (Timebase.h)(0x68A432C1)
+F (.\dispcom.c)(0x68A0186C)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-3 -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I./RTE/_Target_1-IC:/Users/Shohanur/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/Shohanur/AppData/Local/Arm/Packs/Keil/STM32G0xx_DFP/1.5.0/Drivers/CMSIS/Device/ST/STM32G0xx/Include-D__UVISION_VERSION="527" -D_RTE_ -DSTM32G030xx-o ./objects/dispcom.o -MD)
+I (C:\Users\Shohanur\AppData\Local\Arm\Packs\Keil\STM32G0xx_DFP\1.5.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include\stm32g030xx.h)(0x668664AD)
+I (C:\Users\Shohanur\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\core_cm0plus.h)(0x664BF4A8)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5C41004A)
+I (C:\Users\Shohanur\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\cmsis_version.h)(0x664BF4A8)
+I (C:\Users\Shohanur\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\cmsis_compiler.h)(0x664BF4A8)
+I (C:\Users\Shohanur\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\cmsis_armclang.h)(0x664BF4A8)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x5C48D94A)
+I (C:\Users\Shohanur\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\m-profile\cmsis_armclang_m.h)(0x664BF4A8)
+I (C:\Users\Shohanur\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\m-profile\armv7m_mpu.h)(0x664BF4A8)
+I (C:\Users\Shohanur\AppData\Local\Arm\Packs\Keil\STM32G0xx_DFP\1.5.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include\system_stm32g0xx.h)(0x668664AD)
+I (dispcom.h)(0x68A0186C)
+F (.\display.c)(0x68A45F66)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-3 -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I./RTE/_Target_1-IC:/Users/Shohanur/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/Shohanur/AppData/Local/Arm/Packs/Keil/STM32G0xx_DFP/1.5.0/Drivers/CMSIS/Device/ST/STM32G0xx/Include-D__UVISION_VERSION="527" -D_RTE_ -DSTM32G030xx-o ./objects/display.o -MD)
+I (C:\Users\Shohanur\AppData\Local\Arm\Packs\Keil\STM32G0xx_DFP\1.5.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include\stm32g030xx.h)(0x668664AD)
+I (C:\Users\Shohanur\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\core_cm0plus.h)(0x664BF4A8)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5C41004A)
+I (C:\Users\Shohanur\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\cmsis_version.h)(0x664BF4A8)
+I (C:\Users\Shohanur\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\cmsis_compiler.h)(0x664BF4A8)
+I (C:\Users\Shohanur\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\cmsis_armclang.h)(0x664BF4A8)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x5C48D94A)
+I (C:\Users\Shohanur\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\m-profile\cmsis_armclang_m.h)(0x664BF4A8)
+I (C:\Users\Shohanur\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\m-profile\armv7m_mpu.h)(0x664BF4A8)
+I (C:\Users\Shohanur\AppData\Local\Arm\Packs\Keil\STM32G0xx_DFP\1.5.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include\system_stm32g0xx.h)(0x668664AD)
+I (dispcom.h)(0x68A0186C)
+I (display.h)(0x68A018A3)
+F (.\tm1650.c)(0x68A55C26)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-3 -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I./RTE/_Target_1-IC:/Users/Shohanur/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/Shohanur/AppData/Local/Arm/Packs/Keil/STM32G0xx_DFP/1.5.0/Drivers/CMSIS/Device/ST/STM32G0xx/Include-D__UVISION_VERSION="527" -D_RTE_ -DSTM32G030xx-o ./objects/tm1650.o -MD)
+I (C:\Users\Shohanur\AppData\Local\Arm\Packs\Keil\STM32G0xx_DFP\1.5.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include\stm32g030xx.h)(0x668664AD)
+I (C:\Users\Shohanur\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\core_cm0plus.h)(0x664BF4A8)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5C41004A)
+I (C:\Users\Shohanur\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\cmsis_version.h)(0x664BF4A8)
+I (C:\Users\Shohanur\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\cmsis_compiler.h)(0x664BF4A8)
+I (C:\Users\Shohanur\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\cmsis_armclang.h)(0x664BF4A8)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x5C48D94A)
+I (C:\Users\Shohanur\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\m-profile\cmsis_armclang_m.h)(0x664BF4A8)
+I (C:\Users\Shohanur\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\m-profile\armv7m_mpu.h)(0x664BF4A8)
+I (C:\Users\Shohanur\AppData\Local\Arm\Packs\Keil\STM32G0xx_DFP\1.5.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include\system_stm32g0xx.h)(0x668664AD)
+I (Timebase.h)(0x68A432C1)
+I (cdef.h)(0x68A01EC1)
+F (.\cdef.c)(0x68A01EC1)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-3 -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I./RTE/_Target_1-IC:/Users/Shohanur/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/Shohanur/AppData/Local/Arm/Packs/Keil/STM32G0xx_DFP/1.5.0/Drivers/CMSIS/Device/ST/STM32G0xx/Include-D__UVISION_VERSION="527" -D_RTE_ -DSTM32G030xx-o ./objects/cdef.o -MD)
+I (C:\Users\Shohanur\AppData\Local\Arm\Packs\Keil\STM32G0xx_DFP\1.5.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include\stm32g030xx.h)(0x668664AD)
+I (C:\Users\Shohanur\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\core_cm0plus.h)(0x664BF4A8)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5C41004A)
+I (C:\Users\Shohanur\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\cmsis_version.h)(0x664BF4A8)
+I (C:\Users\Shohanur\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\cmsis_compiler.h)(0x664BF4A8)
+I (C:\Users\Shohanur\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\cmsis_armclang.h)(0x664BF4A8)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x5C48D94A)
+I (C:\Users\Shohanur\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\m-profile\cmsis_armclang_m.h)(0x664BF4A8)
+I (C:\Users\Shohanur\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\m-profile\armv7m_mpu.h)(0x664BF4A8)
+I (C:\Users\Shohanur\AppData\Local\Arm\Packs\Keil\STM32G0xx_DFP\1.5.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include\system_stm32g0xx.h)(0x668664AD)
+F (.\captouch.h)(0x68A01F82)()
+F (.\diag.c)(0x68A021A2)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-3 -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I./RTE/_Target_1-IC:/Users/Shohanur/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/Shohanur/AppData/Local/Arm/Packs/Keil/STM32G0xx_DFP/1.5.0/Drivers/CMSIS/Device/ST/STM32G0xx/Include-D__UVISION_VERSION="527" -D_RTE_ -DSTM32G030xx-o ./objects/diag.o -MD)
+I (C:\Users\Shohanur\AppData\Local\Arm\Packs\Keil\STM32G0xx_DFP\1.5.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include\stm32g030xx.h)(0x668664AD)
+I (C:\Users\Shohanur\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\core_cm0plus.h)(0x664BF4A8)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5C41004A)
+I (C:\Users\Shohanur\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\cmsis_version.h)(0x664BF4A8)
+I (C:\Users\Shohanur\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\cmsis_compiler.h)(0x664BF4A8)
+I (C:\Users\Shohanur\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\cmsis_armclang.h)(0x664BF4A8)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x5C48D94A)
+I (C:\Users\Shohanur\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\m-profile\cmsis_armclang_m.h)(0x664BF4A8)
+I (C:\Users\Shohanur\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\m-profile\armv7m_mpu.h)(0x664BF4A8)
+I (C:\Users\Shohanur\AppData\Local\Arm\Packs\Keil\STM32G0xx_DFP\1.5.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include\system_stm32g0xx.h)(0x668664AD)
+I (timebase.h)(0x68A432C1)
+I (dispcom.h)(0x68A0186C)
+I (display.h)(0x68A018A3)
+I (captouch.h)(0x68A01F82)
+I (tm1650.h)(0x68A55C26)
+F (.\dispfnc.c)(0x68A57270)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-3 -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I./RTE/_Target_1-IC:/Users/Shohanur/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/Shohanur/AppData/Local/Arm/Packs/Keil/STM32G0xx_DFP/1.5.0/Drivers/CMSIS/Device/ST/STM32G0xx/Include-D__UVISION_VERSION="527" -D_RTE_ -DSTM32G030xx-o ./objects/dispfnc.o -MD)
+I (C:\Users\Shohanur\AppData\Local\Arm\Packs\Keil\STM32G0xx_DFP\1.5.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include\stm32g030xx.h)(0x668664AD)
+I (C:\Users\Shohanur\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\core_cm0plus.h)(0x664BF4A8)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5C41004A)
+I (C:\Users\Shohanur\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\cmsis_version.h)(0x664BF4A8)
+I (C:\Users\Shohanur\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\cmsis_compiler.h)(0x664BF4A8)
+I (C:\Users\Shohanur\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\cmsis_armclang.h)(0x664BF4A8)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x5C48D94A)
+I (C:\Users\Shohanur\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\m-profile\cmsis_armclang_m.h)(0x664BF4A8)
+I (C:\Users\Shohanur\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\m-profile\armv7m_mpu.h)(0x664BF4A8)
+I (C:\Users\Shohanur\AppData\Local\Arm\Packs\Keil\STM32G0xx_DFP\1.5.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include\system_stm32g0xx.h)(0x668664AD)
+I (captouch.h)(0x68A01F82)
+I (timebase.h)(0x68A432C1)
+I (dispcom.h)(0x68A0186C)
+I (dispfnc.h)(0x68A56DBE)
+I (display.h)(0x68A018A3)
+I (tm1650.h)(0x68A55C26)
+I (debug.h)(0x68A41F4A)
+I (cdef.h)(0x68A01EC1)
+F (.\debug.c)(0x68A41F4A)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-3 -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I./RTE/_Target_1-IC:/Users/Shohanur/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/Shohanur/AppData/Local/Arm/Packs/Keil/STM32G0xx_DFP/1.5.0/Drivers/CMSIS/Device/ST/STM32G0xx/Include-D__UVISION_VERSION="527" -D_RTE_ -DSTM32G030xx-o ./objects/debug.o -MD)
+I (C:\Users\Shohanur\AppData\Local\Arm\Packs\Keil\STM32G0xx_DFP\1.5.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include\stm32g030xx.h)(0x668664AD)
+I (C:\Users\Shohanur\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\core_cm0plus.h)(0x664BF4A8)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5C41004A)
+I (C:\Users\Shohanur\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\cmsis_version.h)(0x664BF4A8)
+I (C:\Users\Shohanur\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\cmsis_compiler.h)(0x664BF4A8)
+I (C:\Users\Shohanur\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\cmsis_armclang.h)(0x664BF4A8)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x5C48D94A)
+I (C:\Users\Shohanur\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\m-profile\cmsis_armclang_m.h)(0x664BF4A8)
+I (C:\Users\Shohanur\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\m-profile\armv7m_mpu.h)(0x664BF4A8)
+I (C:\Users\Shohanur\AppData\Local\Arm\Packs\Keil\STM32G0xx_DFP\1.5.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include\system_stm32g0xx.h)(0x668664AD)
+I (debug.h)(0x68A41F4A)
+F (RTE\Device\STM32G030F6Px\startup_stm32g030xx.s)(0x668664AD)(--cpu Cortex-M0+ --pd "__EVAL SETA 1" -g-I.\RTE\_Target_1-IC:\Users\Shohanur\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include-IC:\Users\Shohanur\AppData\Local\Arm\Packs\Keil\STM32G0xx_DFP\1.5.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include--pd "__UVISION_VERSION SETA 527"--pd "_RTE_ SETA 1"--pd "STM32G030xx SETA 1"--list .\listings\startup_stm32g030xx.lst--xref -o .\objects\startup_stm32g030xx.o--depend .\objects\startup_stm32g030xx.d)
+F (RTE\Device\STM32G030F6Px\system_stm32g0xx.c)(0x668664AD)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-3 -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I./RTE/_Target_1-IC:/Users/Shohanur/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/Shohanur/AppData/Local/Arm/Packs/Keil/STM32G0xx_DFP/1.5.0/Drivers/CMSIS/Device/ST/STM32G0xx/Include-D__UVISION_VERSION="527" -D_RTE_ -DSTM32G030xx-o ./objects/system_stm32g0xx.o -MD)
+I (C:\Users\Shohanur\AppData\Local\Arm\Packs\Keil\STM32G0xx_DFP\1.5.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include\stm32g0xx.h)(0x668664AD)
+I (C:\Users\Shohanur\AppData\Local\Arm\Packs\Keil\STM32G0xx_DFP\1.5.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include\stm32g030xx.h)(0x668664AD)
+I (C:\Users\Shohanur\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\core_cm0plus.h)(0x664BF4A8)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5C41004A)
+I (C:\Users\Shohanur\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\cmsis_version.h)(0x664BF4A8)
+I (C:\Users\Shohanur\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\cmsis_compiler.h)(0x664BF4A8)
+I (C:\Users\Shohanur\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\cmsis_armclang.h)(0x664BF4A8)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x5C48D94A)
+I (C:\Users\Shohanur\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\m-profile\cmsis_armclang_m.h)(0x664BF4A8)
+I (C:\Users\Shohanur\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\m-profile\armv7m_mpu.h)(0x664BF4A8)
+I (C:\Users\Shohanur\AppData\Local\Arm\Packs\Keil\STM32G0xx_DFP\1.5.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include\system_stm32g0xx.h)(0x668664AD)
