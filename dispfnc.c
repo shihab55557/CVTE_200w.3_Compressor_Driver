@@ -26,7 +26,7 @@ Disp_com Disp__com;
 
 
 void Dispfnc_Structure_Init(void){
-	Comp__param.set_rps = 0;
+	Comp__param.set_rps = 25;
 	Comp__param.print_flag = 0;
 	Comp__param.com_state = 0;
 	Disp__com.rx_packet_count = 0;
@@ -156,17 +156,17 @@ void Dispfnc_Set_RPS_Handler(void){
 	if(CapTouch_Short_Pressed(CAPTOUCH_INC_BUTTON)){
 		Comp__param.set_rps += 5;
 		if(Comp__param.set_rps > 75){
-			Comp__param.set_rps = 0;
+			Comp__param.set_rps = 25;
 		}
 	}
 	if(CapTouch_Short_Pressed(CAPTOUCH_DEC_BUTTON)){
 		Comp__param.set_rps--;
-		if(Comp__param.set_rps < 0 ){
-			Comp__param.set_rps = 0;
+		if(Comp__param.set_rps < 25 ){
+			Comp__param.set_rps = 25;
 		}
 	}
 	if(CapTouch_Long_Pressed(CAPTOUCH_DEC_BUTTON)){
-		Comp__param.set_rps = 0;
+		Comp__param.set_rps = 25;
 	}
 }
 
@@ -235,7 +235,6 @@ void Dispfnc_Display_Repeated_Init(void){
 		if(Timebase_DownCounter_SS_Expired_Event(DISPLAY_DRIVER_INIT_WINDOW_SS)){
 			TM1650_Write_System_Cmd(0x48); // Display Init Command
 			Dispfnc_Display_Repeated_Init_Timer_Init();
-			Debug_Tx_Text("Reset done\n\r");
 		}
 }
 
@@ -246,12 +245,12 @@ void Dispfnc_Init(void){
 	Timebase_DownCounter_Set_Securely(TIMEBASE_HEARTBEAT_WINDOW_S, TIMEBASE_HEARTBEAT_TIME_S);
 	Timebase_DownCounter_SS_Set_Securely(TIMEBASE_DISPLAY_PRINT_WINDOW_SS, TIMEBASE_DISPLAY_PRINT_TIME_S);
 	Dispfnc_Display_Repeated_Init_Timer_Init();
+	Dispfnc_Set_Rx_Packet_Timer();
 }
 
 
 void Dispfnc_Handler(void){
 	Dispfnc_Display_Repeated_Init();
-	Debug_Tx_Parameter_NL("packet error flag ", Dispfnc_Get_Rx_Packet_Error_Flag());
 	Dispfnc_Display_Print_Funtions();
 	Dispfnc_Tx_Rx_Handler();
 }
